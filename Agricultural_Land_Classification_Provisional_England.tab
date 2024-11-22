@@ -1,0 +1,14 @@
+!table
+!version 450
+!charset Neutral
+
+Definition Table
+  Type NATIVE Charset "Neutral"
+  Fields 7
+    gml_id Char (254) ;
+    geogext Char (5) ;
+    area Float ;
+    alc_grade Char (16) ;
+    perimeter Float ;
+    shape_leng Float ;
+    gdb_geomattr_data Char (11) ;
